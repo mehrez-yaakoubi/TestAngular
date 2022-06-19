@@ -8,10 +8,11 @@ import { Component, OnInit } from '@angular/core';
 export class HomeComponent implements OnInit {
 number=1
 verif =false
+date="09/18/2022"
 dataArray=["mehrez","mohamed","ali","Naceur"]
 
 profile={
-  firstName:"mehrez",
+  firstName:"MEHREZ",
   LastName:"yaakobi",
   Adresse:"tunis",
   website:"www.okitou.com",

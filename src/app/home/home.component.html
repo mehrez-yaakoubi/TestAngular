@@ -6,11 +6,15 @@
 <p>{{i+1}} {{item}}</p>
 </div>
 
+//pipe!!!!!!!!!!!!!!! 
 
-    <p>{{profile.firstName}}</p>
-    <p>{{profile.LastName}}</p>
+    <p>{{profile.firstName|lowercase}}</p>
+    <p>{{profile.LastName|uppercase}}</p>
     <p>{{profile.website}}</p>
-    <p>{{profile.Age}}</p>
+    <p>{{profile.Age|lowercase}}</p>
+
+    <p>{{number|currency:'EUR'}}</p>
+    <p>{{date| date:'medium' }}</p>
 
 
 <input type="number" [(ngModel)]="number">
