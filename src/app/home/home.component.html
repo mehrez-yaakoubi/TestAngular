@@ -1,0 +1,22 @@
+<p>home works!</p>
+<p>{{number}}</p>
+<input type="text" [(ngModel)]="number">
+<p *ngIf="verif"> welcome to hrouz</p>
+<div *ngFor="let item of dataArray;index as i">
+<p>{{i+1}} {{item}}</p>
+</div>
+
+
+    <p>{{profile.firstName}}</p>
+    <p>{{profile.LastName}}</p>
+    <p>{{profile.website}}</p>
+    <p>{{profile.Age}}</p>
+
+
+<input type="number" [(ngModel)]="number">
+<div  [ngSwitch]="number">
+    <p *ngSwitchCase="1">First</p>
+    <p *ngSwitchCase="2">Second</p>
+    <p *ngSwitchCase="3">third</p>
+
+</div>
